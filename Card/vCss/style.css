@@ -14,6 +14,9 @@
   box-shadow: 0 20px 35px rgba(0,0,0,0.26);
   transition: 0.5s;
 }
+#card-pick {
+  scale: 1.1;
+}
 .card-box:hover{
   transform: scale(0.95);
 }
