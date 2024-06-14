@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <!-- <link href="./reset.css" rel="stylesheet"> -->
+</head>
+<body>
+
+  <div class="container">
+    <h1>Display Examples</h1>
+    <div class="card">
+      <h2>display: block</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements. </h3>
+      <p>
+        < ------- Some text A ------- > 
+        <span class="block"> Block 01</span>
+        <span class="block"> Block 02</span>
+        < ------- Some text B ------- > 
+
+      </p>
+    </div>
+  
+    <div class="card">
+      <h2>display: inline</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements.</h3>
+        < ------- Some text A ------- > 
+        <span class="inline"> Inline 01</span>
+        <span class="inline"> Inline 01</span>
+        < ------- Some text B ------- > 
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>display: inline-block</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements.</h3>
+        < ------- Some text A ------- > 
+        <span class="inline-block"> Inline block 01</span>
+        <span class="inline-block"> Inline block 01</span>
+        < ------- Some text B ------- > 
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>display: none</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements.</h3>
+        < ------- Some text A ------- > 
+        <span class="none"> None 01</span>
+        <span class="none"> None 01</span>
+        < ------- Some text B ------- > 
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>display: flex</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements.</h3>
+        < ------- Some text A ------- > 
+        <span class="flex"> flex 01</span>
+        <span class="flex"> flex 02</span>
+        < ------- Some text B ------- > 
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>display: grid</h2>
+      <h3>Apply different display values on the dashed orange-bordered div, which contains three child elements.</h3>
+        < ------- Some text A ------- > 
+
+          <span class="grid"> grid 01</span>
+          <span class="grid"> grid 02</span>
+        < ------- Some text B ------- > 
+      </p>
+    </div>
+  </div>
+
+
+  <hr>
+  <div class="container">
+    <h1>Cascading Examples</h1>
+    <h2>Priority: inline stylesheet > id style > class style > li tag </h2>
+    <div >
+      <ul>
+        <li>Item 01</li>
+        <li id="id_selector" class="class_selector" style="background-color: yellow;">Item 02</li>
+        <li class="class_selector">Item 03</li>
+        <li>Item 04</li>
+      </ul>
+
+
+    </div>
+
+
+  </div>
+
+
+</body>
+</html>

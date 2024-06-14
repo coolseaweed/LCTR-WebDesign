@@ -1,0 +1,43 @@
+.item-wrap{
+    position: relative;
+    margin: auto;
+    padding: 32px;
+    width: 600px;
+    height: 18000px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.item{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 560px;
+    height: 100px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    padding: 30px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.static{
+  position: static;
+  left: 60px;
+}
+.relative{
+  position: relative;
+  left: 60px;
+}
+.absolute{
+  position: absolute;
+  left: 60px;
+}
+.fixed{
+  position: fixed;
+  left: 60px;
+
+  opacity:  0.3;
+}
